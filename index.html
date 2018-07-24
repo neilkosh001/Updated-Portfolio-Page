@@ -1,47 +1,75 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
 </head>
 
-<body>
+<header>
+  <nav class="navbar navbar-light bg-light shadow fixed-top mb-5 pt-0 pb-0">
+      <span>
+          <a href="index.html" class="navbar-brand mb-0 ml-5 mt-0 h1 bg-info p-4 text-white" style="font-family: 'Playfair Display', serif; font-size: 40px">
+              Neil Koshy</a>
+      </span>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+      <ul class="nav nav-pills justify-content-end">
+          <li class="nav-item">
+              <a class="nav-link ml-2 text-muted" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link border-left border-right text-muted" href="portfolio.html">Porfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active bg-dark mr-2" href="#">Contact</a>
+          </li>
+      </ul>
+  </nav>
+</header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+    <body background="https://i.ytimg.com/vi/KFNxdXEe0Ko/maxresdefault.jpg" class="" style="padding-top: 130px;">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-xl-9">
+            <div class="jumbotron bg-light">
+              <div class="row">
+                <div class="col-xl-12 mb-4" style="border-bottom-width: thick; border-bottom-style: solid;">
+                  <h1 style="font-family: 'Abril Fatface'; font-size: 40px">About Me</h1>
+                </div>
+              </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+              <div class="row">
+                <div class="col-xl-12">
+              
+                  <img src="https://avatars1.githubusercontent.com/u/37823398?s=460&v=4" style="float: left; border: solid black  img-responsive mr-4 mb-2" width="150px" height="150px"/>
 
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify"><p>Hello! My name is Neil Koshy. WELCOME TO MY PAGE!</p>
+                  <p class="text-justify"></p>
 
-    </section>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  </div>
+    </body>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
-</body>
+    <footer>
+      <div class="card fixed-bottom">
+        <div class="bg-info" style="height:10px">
+
+        </div>
+        <div class="card-body bg-secondary">
+          <p class="text-center text-white">© Copyright</p>
+        </div>
+      </div>
+    </footer>
+
+
 
 </html>
